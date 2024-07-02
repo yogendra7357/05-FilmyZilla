@@ -173,10 +173,10 @@ header.shadow .navbar a {
 }
 
 .swiper-slide {
-
     text-align: center;
     font-size: 18px;
     background: #fff;
+    box-sizing: border-box;
 
     display: -webkit-box;
     display: -ms-flexbox;

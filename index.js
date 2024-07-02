@@ -46,7 +46,7 @@ let swiperSlide = new Swiper(".coming-container", {
 // Header Shadow on Scroll
 window.addEventListener("scroll", function () {
     var header = document.querySelector("header");
-    header.classList.toggle("shadow", window.scrollY > 0);
+    header.classList.toggle("shadow", window.scrollY > 20);
 });
 
 // Navbar Toggle
